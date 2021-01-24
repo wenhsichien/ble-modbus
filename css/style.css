@@ -1,0 +1,238 @@
+
+html {
+  height: 100%;
+}
+body {
+  position: absolute;
+  height: 100%;
+  width: 99%;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  background: #606060;
+}
+#terminal {
+  display: block;
+  position: fixed;
+  top: 150px;
+  bottom: 3%;
+  width: 100%;
+}
+
+#connection-panel {
+  background: transparent;
+}
+
+#clientConnectButton {
+  position:fixed;
+  background-color: rgb(51,105,232);
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  left: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+#clientDisplayButton {
+  position:fixed;
+  background-color: rgb(51,105,232);
+  border: none;
+  border-radius: 8px;
+  width: 180px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  left: 180px;
+  top: 15px;
+  cursor: pointer;
+}
+
+#clientClrScreenButton {
+  position:fixed;
+  background-color: rgb(51,105,232);
+  border: none;
+  border-radius: 8px;
+  width: 180px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  left: 380px;
+  top: 15px;
+  cursor: pointer;
+}
+
+#clientDigitalDisplayButton {
+  position:fixed;
+  background-color: rgb(51,105,232);
+  border: none;
+  border-radius: 8px;
+  width: 160px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  left: 580px;
+  top: 15px;
+  cursor: pointer;
+}
+
+#clientUpdateServerButton {
+  position:fixed;
+  background-color: rgb(255,105,232);
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  left: 805px;
+  top: 15px;
+  cursor: pointer;
+}
+
+#ListenModBus {
+  position:fixed;
+  background-color: rgb(51,105,232);
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  left: 15px;
+  top: 80px;
+  cursor: pointer;
+}
+
+
+#BusVoltage {
+  position:fixed;
+  background-color: rgb(151,105,232);
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  left: 180px;
+  top: 80px;
+  cursor: pointer;
+}
+
+#BusCurrent {
+  position:fixed;
+  background-color: rgb(151,105,232);
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  left: 340px;
+  top: 80px;
+  cursor: pointer;
+}
+
+#BusWatt {
+  position:fixed;
+  background-color: rgb(151,105,232);
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  left: 500px;
+  top: 80px;
+  cursor: pointer;
+}
+
+#RPM {
+  position:fixed;
+  background-color: rgb(151,105,232);
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  left: 660px;
+  top: 80px;
+  cursor: pointer;
+}
+
+#CodeVersion {
+  position:fixed;
+  background-color: rgb(151,105,232);
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  left: 820px;
+  top: 80px;
+  cursor: pointer;
+}
+
+
+.custom-file-input {
+  color: transparent;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select files 選取文件';
+  color: black;
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 10px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 15pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+}
+
+body {
+  padding: 10px;
+}
